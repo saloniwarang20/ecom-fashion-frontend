@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --font-playwrite: "Playwrite ID", cursive;
+    --font-geograph: "Geograph", sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    @apply bg-taupe-200;
+   font-family: "Geograph", sans-serif;
+}
+
+.hero{
+    height: 600px;
+    margin: 18px 15px ; 
+    border-radius: 20px;
+    background-image: url("./assets/images/background.png");
+    background-size:cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .hero {
+        height: 500px;
+        margin: 15px 12px;
+        border-radius: 18px;
+        background-position: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .hero {
+        height: 430px;
+        margin: 12px 10px;
+        border-radius: 16px;
+        background-position: right;
+    }
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+
