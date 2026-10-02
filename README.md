@@ -1,5 +1,3 @@
-
-````md
 # Aria – Fashion E-Commerce Frontend
 
 A modern fashion e-commerce website built with React, Vite and Tailwind CSS.
@@ -50,8 +48,6 @@ Backend: `<your-backend-repository-url>`
 ## Author
 
 **Saloni Warang**
-
-````
 
 ```
 ```
